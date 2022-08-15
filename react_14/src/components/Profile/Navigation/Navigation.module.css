@@ -1,0 +1,31 @@
+.title {
+  max-width: 16rem;
+  left: 0;
+  margin-bottom: -1rem;
+  padding: 1rem 0;
+  border: 1px solid rgba(0, 0, 0, 0.8);
+  border-radius: 16px 16px 0 0;
+  background: rgba(0, 0, 0, 0.8);
+  color: rgba(255, 255, 255, 0.8);
+}
+
+.navigation {
+  left: 0;
+  margin-top: 0;
+  padding: 1rem 0;
+  max-width: 16rem;
+  display: flex;
+  flex-direction: column;
+  border: 1px solid rgba(0, 0, 0, 0.8);
+  border-radius: 0 0 16px 16px;
+  background: rgba(0, 0, 0, 0.8);
+}
+
+@media(max-width: 720px) {
+  .title {
+    display: none;
+  }
+  .navigation {
+    display: none;
+  }
+}

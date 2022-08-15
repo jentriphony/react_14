@@ -1,0 +1,60 @@
+.counter {
+  margin: 5rem auto;
+  box-shadow: 0 1px 8px rgba(0, 0, 0, 0.2);
+  width: 40rem;
+  border-radius: 8px;
+  padding: 1rem;
+  text-align: center;
+  background-color: rgba(255, 255, 255, 0.8);
+}
+
+@media(max-width: 720px) {
+  .counter {
+    width: auto;
+  }
+}
+
+.counter h1 {
+  text-transform: uppercase;
+  color: rgba(0, 0, 0, 0.4);
+  margin: 0;
+  font-size: 1rem;
+}
+
+.value {
+  font-size: 2rem;
+  color: rgba(0, 0, 0, 0.8);
+  margin: 2rem 0;
+  font-weight: bold;
+}
+
+.form {
+  margin: 1rem auto;
+  max-width: 20rem;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 16px;
+  background-color: rgba(0, 0, 0, 0.1);
+  color: rgba(0, 0, 0, 0.8);
+}
+
+.form label {
+  display: block;
+  margin: 1rem 0;
+}
+
+.form input[type='number'] {
+  display: block;
+  margin: 1rem auto;
+  max-width: 5rem;
+  padding: 1rem;
+  border: 1px solid rgba(0, 0, 0, 0, 0.8);
+  color: rgba(0, 0, 0, 0.4);
+  border-radius: 16px;
+  text-align: center;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.button {
+  margin: 1rem;
+}

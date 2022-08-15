@@ -1,0 +1,30 @@
+.control {
+  margin-bottom: 0.5rem;
+}
+
+.control label {
+  display: block;
+  margin: 2rem auto;
+  color: rgba(0, 0, 0, 0.4);
+  text-transform: uppercase;
+  margin-bottom: 0.5rem;
+}
+
+.control input {
+  display: block;
+  width: 16rem;
+  margin-bottom: 4rem;
+  margin-left: calc(50% - 8rem);
+  border-radius: 4px;
+  padding: 0.25rem 0.5rem;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  text-align: center;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.control input:focus,
+.control input:active {
+  outline: none;
+  border: 2px solid rgba(0, 0, 0, 0.8);
+}

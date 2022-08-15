@@ -1,0 +1,54 @@
+.profile {
+  margin: 5rem auto;
+  box-shadow: 0 1px 8px rgba(0, 0, 0, 0.8);
+  width: 95%;
+  border-radius: 8px;
+  padding: 1rem;
+  text-align: center;
+  font-size: 32px;
+  font-weight: 500;
+}
+
+.delimeter {
+  margin: 16px 0;
+  box-shadow: 0 0 4px 4px rgba(0, 0, 0, 0.2);
+  border-bottom: 4px solid rgba(0, 0, 0, 0.4);
+}
+
+.title {
+  width: 16rem;
+  margin: auto;
+  padding: 0.4rem 1rem;
+  box-shadow: 0 0 4px 4px rgba(0, 0, 0, 0.2);
+}
+
+.body {
+  display: flex;
+}
+
+.body main {
+  width: 65%;
+  padding-top: 4rem;
+}
+
+@media(max-width: 720px) {
+  .title {
+    width: fit-content;
+    font-size: 32px;
+  }
+  .body {
+    display: block;
+  }
+  .body main {
+    width: 90%;
+    font-size: 16px;
+  }
+}
+
+@media(max-width: 250px) {
+  .body {
+    text-align: left;
+    margin-left: 0;
+    width: fit-content;
+  }
+}
